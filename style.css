@@ -212,4 +212,9 @@ hr {
   margin-right: 8px;
   color: #00ffaa;
 }
-
+ body{
+              background: url(https://pa1.aminoapps.com/7672/d40076fdd6637f950386618093e688acccfe8135r1-500-296_hq.gif) 
+              no-repeat center center fixed;
+              background-size: cover;
+              
+                 }
