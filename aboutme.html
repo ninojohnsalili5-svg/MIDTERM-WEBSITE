@@ -8,13 +8,7 @@
     <link rel="shortcut icon" href="favicon-32x32.png.ico" type="image/x-icon">
      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     
-
-</head>
-<body>
-   <nav>
-    <a class="nav" href="index.html">Home Page</a>  
-    <a class="nav" href="contact.html">Contact Page</a>
-    <style>
+     <style>
             h1{
                 text-align: center;   /* centers the title */
     font-size: 2.5rem;    /* make it a bit larger */
@@ -23,7 +17,37 @@
   margin-bottom: 30px;
   text-shadow: 0 0 12px #ff33cc;
             }
+            nav {
+    background: transparent; 
+    padding: 15px;
+    text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #b008b0;
+}
+
     </style>
+
+</head>
+<body>
+   <nav>
+    <a class="nav" href="index.html">Home Page</a>  
+    <a class="nav" href="contact.html">Contact Page</a>
 
 <h1>My Hobbies</h1>
 <div class="hobby-gallery">
@@ -54,7 +78,10 @@
 </div>
 
 
-
+<audio autoplay loop controls>
+    <source src="daniel.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
 </body>
 </html>
