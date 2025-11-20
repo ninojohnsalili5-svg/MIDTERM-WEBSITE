@@ -218,3 +218,12 @@ hr {
               background-size: cover;
               
                  }
+                
+video {
+      width: 100%;
+      outline: none;
+    }
+    strong {
+      display: block;
+      margin-bottom: 8px;
+    }
